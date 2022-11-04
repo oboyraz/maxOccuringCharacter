@@ -14,9 +14,9 @@ public class maxOccuringCharacter {
     Scanner scan = new Scanner(System.in);
         System.out.println("write a sentence: ");
         String input = scan.nextLine().toLowerCase();
-        maksimumKarakterBul(input);
+        maxCharacter(input);
     }
-    private static void maksimumKarakterBul(String input) {
+    private static void maxCharacter(String input) {
         input = input.replaceAll("\\s+", "");
         int countChr = 0;
         int findIndex = -1;
